@@ -370,7 +370,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  
+                  73 字
                 </span>
               
 
@@ -386,7 +386,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  
+                  1 分钟
                 </span>
               
             </div>
@@ -510,6 +510,9 @@
 
           
 
+  
+      <div id="gitalk-container"></div>
+    </div>
   
 
 
@@ -665,8 +668,8 @@ var ap = new APlayer({
 
 
         
-      </div>
-    </main>
+      </main></div>
+    
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
@@ -684,7 +687,7 @@ var ap = new APlayer({
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count"></span>
+    <span title="Site words total count">73</span>
   
 </div>
 
@@ -721,7 +724,7 @@ var ap = new APlayer({
 
     
 
-  </div>
+  
 
   
 
@@ -846,6 +849,23 @@ var ap = new APlayer({
 
 
 
+
+
+
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: '09aeb60317f9ce8bdc24',
+          clientSecret: 'a1fb13864c481c1590818ff04ae8681da6d1d546',
+          repo: 'nelucifer.github.io',
+          owner: 'nelucifer',
+          admin: ['wunian7yulian'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')           
+       </script>
 
 
 
