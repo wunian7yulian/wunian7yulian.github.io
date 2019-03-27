@@ -1807,7 +1807,7 @@ pre .javascript .function {
   overflow-x: hidden;
 }
 .sidebar-toggle {
-  position: fixed;
+  position: absolute;
   right: 30px;
   bottom: 45px;
   width: 14px;
